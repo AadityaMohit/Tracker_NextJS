@@ -37,8 +37,7 @@ const mockGoals = [
 ];
 
 export default function GoalTracker() {
-  const [activeGoal, setActiveGoal] = useState<number | null>(null);
-
+ 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800 font-sans">
       {/* Navbar */}
